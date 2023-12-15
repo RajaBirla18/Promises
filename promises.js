@@ -95,3 +95,4 @@ const promiseFive = new Promise((resolve, reject) => {
   .then( (data) => console.log(data))
   
   .catch( (error) => console.log(error))
+  console.log("fetch mathod");
